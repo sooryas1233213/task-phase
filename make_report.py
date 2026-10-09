@@ -80,7 +80,7 @@ def build_report(root):
               'metrics. Tests cover a known synthetic line, ridge shrinkage, manually calculated metrics, missing and unseen '
               'categories, and disjoint data splits. The notebook runs from a fresh kernel.')
     paragraph('This small historical dataset cannot establish accuracy for current market prices or unseen manufacturers. '
-              'Cross-validation variability and the train/test error gap should be considered when interpreting results.')
+              'Cross-validation variability and the train/test error gap describe uncertainty in these results.')
     paragraph('<link href="https://github.com/sooryas1233213/task-phase">Project repository</link>')
 
     def footer(canvas, document):
